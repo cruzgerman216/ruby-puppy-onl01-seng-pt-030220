@@ -21,6 +21,10 @@ class Dog
     end
   end
 
+  def save(name)
+    @@all << name
+  end
+
 end
 
 a = Dog.new("dude")
