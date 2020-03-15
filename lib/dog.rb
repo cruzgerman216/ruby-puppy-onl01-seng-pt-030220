@@ -7,11 +7,8 @@ class Dog
   end
 
   def self.all
-    arr = []
-    @@all.each do |num|
-      puts num
-    end
-    arr
+    
+    @@all
   end
 
 end
