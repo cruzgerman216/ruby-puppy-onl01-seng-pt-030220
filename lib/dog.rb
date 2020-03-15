@@ -11,6 +11,9 @@ class Dog
     @@all
   end
 
+  def clear_all
+    @@all = []
+  end
 end
 
 a = Dog.new("dude")
