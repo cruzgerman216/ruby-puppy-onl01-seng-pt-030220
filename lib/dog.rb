@@ -20,4 +20,4 @@ a = Dog.new("dude")
 b = Dog.new("dide2")
 c = Dog.new("ddd")
 
-puts a.all
+puts DOg.all
