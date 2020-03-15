@@ -9,9 +9,13 @@ class Dog
   def self.all
     arr = []
     @@all.each do |num|
-      arr << num.name
+      puts num
     end
     arr
   end
 
 end
+
+a = Dog.new("dude")
+b = Dog.new("dide2")
+c = Dog.new("ddd")
