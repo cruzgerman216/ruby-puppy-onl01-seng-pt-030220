@@ -11,6 +11,7 @@ class Dog
     @@all.each do |num|
       arr << num.name
     end
+    arr
   end
 
 end
