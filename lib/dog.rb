@@ -21,7 +21,7 @@ class Dog
     end
   end
 
-  def self.save(name)
+  def self.save
     dog = Dog.new(name)
     @@all << dog
   end
