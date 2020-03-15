@@ -13,6 +13,14 @@ class Dog
   def self.clear_all
     @@all = []
   end
+
+  def self.print_all
+    arr = []
+    @@all.each do |para|
+      arr << para.name
+    end
+    arr
+  end
 end
 
 a = Dog.new("dude")
