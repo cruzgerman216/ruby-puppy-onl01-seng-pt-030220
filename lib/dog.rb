@@ -17,9 +17,8 @@ class Dog
   def self.print_all
     arr = []
     @@all.each do |para|
-      arr << para.name
+      puts para.name
     end
-    arr
   end
 
 end
