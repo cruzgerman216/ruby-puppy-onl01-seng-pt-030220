@@ -21,6 +21,7 @@ class Dog
     end
     arr
   end
+
 end
 
 a = Dog.new("dude")
