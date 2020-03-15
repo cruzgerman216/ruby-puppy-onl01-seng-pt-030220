@@ -27,4 +27,4 @@ a = Dog.new("dude")
 b = Dog.new("dide2")
 c = Dog.new("ddd")
 
-puts Dog.all
+puts Dog.print_all
